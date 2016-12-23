@@ -17,16 +17,16 @@ if( version_compare( get_option( 'ninja_forms_version', '0.0.0' ), '3', '<' ) ||
 
 } else {
 
-    if( ! function_exists( 'NF_SubmissionDisplay' ) ) {
-        function NF_SubmissionDisplay()
+    if( ! function_exists( 'NF_SubmissionsDisplay' ) ) {
+        function NF_SubmissionsDisplay()
         {
             static $instance;
             if( ! isset( $instance ) ) {
                 require_once plugin_dir_path( __FILE__ ) . 'includes/plugin.php';
-                $instance = new NF_SubmissionDisplay_Plugin( '3.0.0', __FILE__ );
+                $instance = new NF_SubmissionsDisplay_Plugin( '3.0.0', __FILE__ );
             }
             return $instance;
         }
     }
-    NF_SubmissionDisplay();
+    NF_SubmissionsDisplay();
 }

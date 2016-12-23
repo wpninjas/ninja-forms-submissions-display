@@ -2,7 +2,7 @@
 
 require_once plugin_dir_path( __FILE__ ) . 'shortcodes.php';
 
-final class NF_SubmissionDisplay_Plugin
+final class NF_SubmissionsDisplay_Plugin
 {
     private $version;
     private $url;

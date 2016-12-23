@@ -11,7 +11,7 @@ final class NF_SubmissionsDisplay_Shortcodes
     {
         if( ! isset( $atts['form_id'] ) ){
             if( current_user_can( 'manage_options' ) ){
-                return NF_SubmissionDisplay()->template( 'shortcode-missing-parameter.html.php', array( 'parameter' => 'form_id' ) );
+                return NF_SubmissionsDisplay()->template( 'shortcode-missing-parameter.html.php', array( 'parameter' => 'form_id' ) );
             }
             return '';
         }
