@@ -1,7 +1,8 @@
 <?php if ( ! defined( 'ABSPATH' ) ) exit;
 
 /*
- * Plugin Name: Ninja Forms - Submission Display (Feature)
+ * Plugin Name: Ninja Forms - Submission Display
+ * Description: [Feature Plugin] Display form submissions using a shortcode.
  * Version: 3.0.0
  * Author: The WP Ninjas
  * Author URI: http://ninjaforms.com
